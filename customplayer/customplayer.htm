@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="videostyle.css" />
+  <link rel="stylesheet" href="vendorstyle.css" />
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="videoplayer.js"></script>
+  <script src="vendorscript.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+
+
+  <div data-role="main" >
+    <div class="videoContainer">
+  
+      <video id="myVideo" controls preload="auto" poster="poster.jpg" width="600" height="350" >
+        <source src="dragon.mp4" type="video/mp4" />
+    
+        <p>Your browser does not support the video tag.</p>
+      </video>
+      <div class="caption">This is HTML5 video with custom controls</div>
+     <!-- <div class="control">
+        Controll Area
+        <div class="topControl">
+          Top Controll
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
+</div> 
+
+</body>
+</html>
